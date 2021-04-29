@@ -182,14 +182,14 @@ function index() {
                 break the coding rules. can you guess which rule ?
               </Typography>
             </Typography>
-            <Typography
-              variant={"body1"}
-              style={{ fontSize: "1rem", fontWeight: "600" }}
-            >
-              Yes it break dry rule, which say that dont repeate your self. then
-              what is the solution, I damn sure you already know what is
-              solution.
+            <Typography variant={"body1"}>
+              <span style={{ fontSize: "1.5rem", fontWeight: "200" }}>
+                Yes it break dry rule, which say that dont repeate your self.
+                then what is the solution, I damn sure you already know what is
+                solution.
+              </span>
             </Typography>
+
             <Typography
               variant={"body2"}
               style={{ fontSize: "1rem", fontWeight: "600" }}
@@ -197,6 +197,7 @@ function index() {
               Yes we can pass the argument in the function and return suqre of
               the parameter of the function just like below.
             </Typography>
+
             <Image
               src={"/image/square.png"}
               width={400}
@@ -269,13 +270,22 @@ function index() {
             </Typography>
             <Typography
               variant={"body1"}
-              style={{ fontSize: "1.2rem", fontWeight: "400" }}
+              style={{
+                fontSize: "1.2rem",
+                fontWeight: "400",
+                marginBottom: "1rem",
+              }}
             >
-              Understand the what is problem here. You might notice that here we
-              also do same thing multiple time which is we declare the function,
-              pass the argument array, create a result arrya and iterate the
-              parameter array arr and make some operation and put resultant
-              value in result array and finaly we return the result array.
+              Are you Understand the Problem here ? You might notice that here
+              we also do same thing multiple time which is
+            </Typography>
+            <Typography variant={"body1"} style={{ fontWeight: "600" }}>
+              1. we declare the function, pass the argument array,
+            </Typography>
+            <Typography variant={"body1"} style={{ fontWeight: "600" }}>
+              2. create a "result" arrya and iterate the parameter array "arr"
+              and make some operation on that and put resultant value in
+              "result" array and finaly we return the "result" array.
             </Typography>
             <Typography
               style={{
@@ -316,7 +326,11 @@ function index() {
               </span>{" "}
             </Typography>
             <Typography
-              style={{ marginTop: "1.5rem", fontSize: "1rem" }}
+              style={{
+                marginTop: "1.5rem",
+                fontSize: "1rem",
+                fontWeight: "200",
+              }}
               variant={"body1"}
             >
               The diffrence is in whole function only one line is change which
@@ -324,7 +338,7 @@ function index() {
               so we create a another function which only do the operational
               instruction and pass that function as a argument.
             </Typography>
-            <Typography style={{ marginTop: "1.5rem" }}>
+            <Typography style={{ marginTop: "1.5rem", fontWeight: "200" }}>
               So What we do here we make a function which is
               doSomeThingWithArray and pass the argument, one is array and
               another is function defination.

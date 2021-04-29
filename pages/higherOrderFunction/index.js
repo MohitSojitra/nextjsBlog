@@ -1,6 +1,6 @@
 import { Box, Container, Typography } from "@material-ui/core";
 import React from "react";
-import MetaData from "../../component/MetaData";
+import MetaData from "../../components/MetaData";
 
 import Image from "next/image";
 
